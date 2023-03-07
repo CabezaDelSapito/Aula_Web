@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+
+    <form>
+        <label for="nome">Nome:</label>
+        <input id="nome" type="text" placeholder="Digite seu nome aqui" required><br><br>
+        <label for="email">Email:</label>
+        <input id="email" type="email" placeholder="Digite seu email aqui" required><br><br>
+        <label for="senha">Senha:</label>
+        <input id="senha" type="password" placeholder="Digite sua senha aqui" required><br><br>
+
+        <label >Genero:</label>
+        <input id="omi" type="radio" name="genero" value="omi" >
+        <label for="omi">Omi</label>
+        <input id="muie" type="radio" name="genero" value="muie" >
+        <label for="muie">Muie</label><br><br>
+
+        <label >marca qualquer coisa ai:</label>
+        <input id="item1" type="checkbox" name="random" value="item1" >
+        <label for="item1">TV</label>
+        <input id="item2" type="checkbox" name="random" value="item2" >
+        <label for="item2">Geladeira</label><br><br>
+
+        <label>Escolha uma cor:</label>
+        <select>
+            <option selected disabled value="">Selecione uma cor</option>
+            <option value="vermelho">Vermelho</option>
+            <option value="preto">Preto</option>
+            <option value="branco">Branco</option>
+        </select><br><br>
+
+        <label>Digite uma mensagem:</label><br>
+        <textarea name="mensagem" placeholder="Um texto de exemplo" rows="15" cols="55"></textarea><br><br>
+
+        <input type="submit" value="Enviar formulario">
+    </form><br>
+
+    <button>Clique aqui pra não acontecer nada</button>
+
+    <hr>
+
+    <a href="index.html">Voltar para home</a>
+</body>
+</html>
