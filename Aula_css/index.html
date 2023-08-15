@@ -3,19 +3,84 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aprendendo CSS</title>
+    <meta name="description" content="Um site de exemplo do modulo CSS">
+    <meta name="keywords" content="CSS, HTML">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsivo.css">
+    <title>Aprendendo CSS</title>
     
 </head>
 
 <body>
-    <h1 class="center">Meu primeiro site com CSS</h1>
-    <p class="center vermelho">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo architecto saepe deleniti veritatis, tempora totam nisi doloribus autem. Id cupiditate officia recusandae delectus velit blanditiis officiis? Odio illum saepe aperiam.</p>
-    <p id="teste">Consectetur veniam et consequatur iure possimus mollitia distinctio libero totam eveniet aut dignissimos facilis id assumenda consequuntur, provident esse aspernatur aliquam reiciendis eligendi excepturi voluptates? Beatae tempora quisquam veniam velit?</p>
-    <p class="vermelho fonte-30">Enim doloribus dolorum corporis similique voluptas, delectus nihil reprehenderit voluptate quasi sequi fuga, veniam, nulla porro cupiditate quae dolore praesentium labore voluptatibus soluta? Ut accusamus dolore quas voluptate ipsam aspernatur.</p>
-
-    <a href="outra.html">Ir para outra página</a>
+    <nav class="navbar">
+        <div class="logo">
+            <h1>Aula CSS</h1>
+        </div>
+        <div class="menu">
+            <a href="#">Home</a>
+            <a href="#">Sobre Nós</a>
+            <a href="#">Serviços</a>
+            <a id="botao" href="#">Fale Conosco</a>
+        </div>
+    </nav>
+    <header class="header">
+        <div class="headline">
+            <h2 style="letter-spacing: 15px;">você achou a melhor</h2>
+            <h2 style="font-size: 80px;">Agência Digital</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ipsum doloribus labore ipsam esse iusto quaerat accusamus commodi voluptatem ratione quia asperiores, consequatur dicta, enim earum laboriosam, hic tempora nostrum!</p>
+            <a href="#" class="contact-btn">Contrate Agora</a>
+        </div>
+        <div class="img-headline">
+            <img style="max-width: 90%;" src="img/—Pngtree—digital marketing bulb element_2079819.png">
+        </div>
+    </header>
+    <section>
+        <h2>O que podemos fazer pelo seu negócio?</h2>
+        <div class="servicos">
+            <div class="card">
+                <img src="img/pc.png">
+                <div class="card-text">
+                    <h3>Desenvolvimento de Sites</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, eligendi accusantium. Porro ut magni, iste laborum nam, iure nihil saepe ex impedit nobis ullam harum ipsa blanditiis quidem ipsum accusamus.</p>
+                </div>
+                <div class="texto-oculto">
+                    <h3>Outro conteúdo qualquer</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, eligendi accusantium. Porro ut magni, iste laborum nam, iure nihil saepe ex impedit nobis ullam harum ipsa blanditiis quidem ipsum accusamus.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/smartphone.png">
+                <div class="card-text">
+                    <h3>Desenvolvimento de Apps</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, eligendi accusantium. Porro ut magni, iste laborum nam, iure nihil saepe ex impedit nobis ullam harum ipsa blanditiis quidem ipsum accusamus.</p>
+                </div>
+                <div class="texto-oculto">
+                    <h3>Outro conteúdo qualquer</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, eligendi accusantium. Porro ut magni, iste laborum nam, iure nihil saepe ex impedit nobis ullam harum ipsa blanditiis quidem ipsum accusamus.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/marketing.png">
+                <div class="card-text">
+                    <h3>Marketing Digital</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, eligendi accusantium. Porro ut magni, iste laborum nam, iure nihil saepe ex impedit nobis ullam harum ipsa blanditiis quidem ipsum accusamus.</p>
+                </div>
+                <div class="texto-oculto">
+                    <h3>Outro conteúdo qualquer</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, eligendi accusantium. Porro ut magni, iste laborum nam, iure nihil saepe ex impedit nobis ullam harum ipsa blanditiis quidem ipsum accusamus.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="logo-rodape">
+            <h1>Aula CSS</h1>
+            <p style="color: white;">Um site feito com HTML e CSS puro</p>
+        </div>
+        <b style="color: white;">© todos os direitos reservados.</b>
+    </footer>
 </body>
 
 </html>
